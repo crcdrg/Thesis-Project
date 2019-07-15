@@ -28,6 +28,9 @@ to your server
 There is a folder named "python", inside it there's a file named info6.php which is used to save 
 the image the user uploads. Inside that folder there are 3 files necessary to build the model, 
 train the convolutional neural network, make predictions and then return the results.
+
+Depending on the computational power of your computer/server, the model can be trained on a robust machine
+in order to do it faster, then save the model and copy it to the server so it can be used for predictions.
 ```
 
 * dissertation.py - To create the dataset
@@ -44,3 +47,14 @@ The communication is happening between the system and the user. The administrato
 
 ![alt text](https://raw.githubusercontent.com/Jimakosg/Thesis-Project/master/Annotation%202019-07-15%20143657.png)
 ![alt text](https://raw.githubusercontent.com/Jimakosg/Thesis-Project/master/Annotation%202019-07-15%20143710.png)
+![alt text](https://raw.githubusercontent.com/Jimakosg/Thesis-Project/master/Annotation%202019-07-15%20160545.png)
+
+
+## Testing
+
+Using a tesnorflow callback called Tensorboard i measured the accuracy of the predictions the neural network attempted.
+
+![alt text](https://raw.githubusercontent.com/Jimakosg/Thesis-Project/master/Annotation%202019-07-15%20160840.png)
+
+![alt text](https://raw.githubusercontent.com/Jimakosg/Thesis-Project/master/Annotation%202019-07-15%20160853.png)
+

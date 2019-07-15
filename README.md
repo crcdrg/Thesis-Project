@@ -23,8 +23,11 @@ PHP
 
 ```
 Install the application on your mobile phone
-Inside the MainActivity file, line 290 and line 374 change the IP address to the one that correlates to your server
-There is a folder named "python", inside it there's a file named info6.php which is used to save the image the user uploads. Inside that folder there are 3 files necessary to build the model, train the convolutional neural network, make predictions and then return the results.
+Inside the MainActivity file, line 290 and line 374 change the IP address to the one that correlates 
+to your server
+There is a folder named "python", inside it there's a file named info6.php which is used to save 
+the image the user uploads. Inside that folder there are 3 files necessary to build the model, 
+train the convolutional neural network, make predictions and then return the results.
 ```
 
 * dissertation.py - To create the dataset

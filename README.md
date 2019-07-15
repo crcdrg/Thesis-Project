@@ -8,16 +8,29 @@ Following the instructions will help you set up the application to your android 
 
 ### Prerequisites
 
-The list above is necessary in order to run the application
+The list above is necessary in order to run the application:
 
 ```
 Android Phone to install the application
-A running server to communicate and make predictions
+Apache server to communicate and make predictions (I hosted mine on Digital Ocean)
 Python
 Tensorflow
 Keras
 PHP
 ```
+
+### How to install
+
+```
+Install the application on your mobile phone
+Inside the MainActivity file, line 290 and line 374 change the IP address to the one that correlates to your server
+There is a folder named "python", inside it there's a file named info6.php which is used to save the image the user uploads. Inside that folder there are 3 files necessary to build the model, train the convolutional neural network, make predictions and then return the results.
+```
+
+* dissertation.py - To create the dataset
+* DissTrainKeras.py - To train the convolutional neural network
+* DebianPrediction.py - To make the prediction and save the file to a text file
+
 
 ## Design
 
